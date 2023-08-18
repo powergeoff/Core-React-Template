@@ -32,7 +32,8 @@ public class SpaIndexMiddleware
             var jsonString = JsonSerializer.Serialize(
                 new
                 {
-                    appVersion = "0.0.1"
+                    appVersion = "0.0.1",
+                    appName = "CareWell"
                 }
             );
 
